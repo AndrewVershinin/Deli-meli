@@ -1,4 +1,4 @@
-package com.pluralsight.model.constants;
+package com.pluralsight.items.constants;
 
 public class BreadType {
     public static final String WHITE = "White";

@@ -1,4 +1,4 @@
-package com.pluralsight.model.constants;
+package com.pluralsight.items.constants;
 
 public class IngredientType {
     public static final String MEAT = "Meat";
