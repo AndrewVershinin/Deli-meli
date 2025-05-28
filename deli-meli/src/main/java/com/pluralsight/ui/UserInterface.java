@@ -1,6 +1,7 @@
 package com.pluralsight.ui;
 
 import com.pluralsight.items.*;
+import com.pluralsight.service.ReceiptService;
 
 import java.util.Scanner;
 
@@ -44,8 +45,44 @@ public class UserInterface {
 
             switch (userChoice) {
                 case "1":
-                    S
+                    Sandwich sandwich = SandwichBuilder.buildSandwich();
+                    order.addSandwich(sandwich);
+                    System.out.println("Sandwich added!");
+                    break;
+                case "2":
+                    Drink drink = buildDrink();
+                    order.addDrink(drink);
+                    System.out.println("Drink added!");
+                case "3":
+                    Chips chips = buildChips();
+                    order.addChips(chips);
+                    System.out.println("Chips added!");
+                case "4":
+                    System.out.println("\nFinal Order:");
+                    System.out.println(order);
+                    ReceiptService.saveOrderToFile(order);
+                    return;
+                case "0":
+                    System.out.println("Order canceled");
+                    return;
+                default:
+                    System.out.println("Invalid choice");
+                    break;
             }
         }
+    }
+    private static Drink buildDrink() {
+        System.out.print("Enter drink flavor: ");
+        String flavor = input.nextLine();
+
+        System.out.print("Size? (12, 16, 20 oz): ");
+        int size = Integer.parseInt(input.nextLine());
+
+        return new Drink(flavor, size);
+    }
+    private static Chips buildChips() {
+        System.out.print("Enter chip type (BBQ, Sour Cream, Classic): ");
+        String type = input.nextLine();
+        return new Chips(type);
     }
 }
