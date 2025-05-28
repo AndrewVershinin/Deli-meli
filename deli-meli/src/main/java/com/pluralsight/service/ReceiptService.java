@@ -16,13 +16,6 @@ public class ReceiptService {
         String fileName = "receipts/" + timestamp + ".txt";
 
         try {
-            // will create folder if it doesn't exist
-            File folder = new File("receipts");
-
-            if(!folder.exists()){
-                folder.mkdirs();
-            }
-
             BufferedWriter writer = new BufferedWriter(new FileWriter(fileName, true));
             writer.write(order.toString());
             writer.close();
