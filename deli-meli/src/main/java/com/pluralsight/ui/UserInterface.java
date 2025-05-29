@@ -50,12 +50,18 @@ public class UserInterface {
                     System.out.println("Sandwich added!");
                     break;
                 case "2":
-                    Drink drink = buildDrink();
-                    order.addDrink(drink);
+                    System.out.print("Would you like to add a drink? (y/n): ");
+                    if (input.nextLine().equalsIgnoreCase("y")) {
+                        Drink drink = buildDrink();
+                        order.addDrink(drink);
+                    }
                     System.out.println("Drink added!");
                 case "3":
-                    Chips chips = buildChips();
-                    order.addChips(chips);
+                    System.out.print("Would you like to add chips? (y/n): ");
+                    if (input.nextLine().equalsIgnoreCase("y")) {
+                        Chips chips = buildChips();
+                        order.addChips(chips);
+                    }
                     System.out.println("Chips added!");
                 case "4":
                     System.out.println("\nFinal Order:");
@@ -71,6 +77,7 @@ public class UserInterface {
             }
         }
     }
+
     private static Drink buildDrink() {
         System.out.print("Enter drink flavor: ");
         String flavor = input.nextLine();
@@ -80,6 +87,7 @@ public class UserInterface {
 
         return new Drink(flavor, size);
     }
+
     private static Chips buildChips() {
         System.out.print("Enter chip type (BBQ, Sour Cream, Classic): ");
         String type = input.nextLine();

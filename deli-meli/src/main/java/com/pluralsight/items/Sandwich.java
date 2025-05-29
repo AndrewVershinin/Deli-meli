@@ -47,9 +47,14 @@ public class Sandwich {
 
     public double calculatePrice() {
         double total = 0;
+        if (sandwichSize == 4) total += 5.50;
+        else if (sandwichSize == 8) total += 7.00;
+        else if (sandwichSize == 12) total += 8.50;
+
         for (Ingredient i : ingredients) {
             total += i.getPrice(sandwichSize);
         }
+
         return total;
     }
 

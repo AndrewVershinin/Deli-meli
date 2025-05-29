@@ -1,0 +1,27 @@
+
+DELI-MELI ORDER SUMMARY
+
+Sandwich 1:
+12" Rye (Toasted)
+Ingredients:
+ - Chicken
+ - Extra Chicken (Extra)
+ - Bacon
+ - Cheddar
+ - Lettuce
+ - Tomatoes
+ - Onions
+ - Peppers
+ - Pickles
+ - Jalapeños
+ - Cucumbers
+ - Guacamole
+ - Mushrooms
+ - Mustard
+ - Ranch
+Total sandwich price: $9.75
+
+Drink: 16oz cola ($2.50)
+Chips:  Chips ($1.50)
+
+Total Order Price: $13.75

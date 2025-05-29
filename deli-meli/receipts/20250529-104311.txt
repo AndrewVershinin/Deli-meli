@@ -1,0 +1,20 @@
+
+DELI-MELI ORDER SUMMARY
+
+Sandwich 1:
+8" white (Toasted)
+Ingredients:
+ - Ham
+ - Roast Beef
+ - Extra Roast Beef (Extra)
+ - Cheddar
+ - Lettuce
+ - Onions
+ - Pickles
+ - Guacamole
+ - Ranch
+Total sandwich price: $6.50
+
+Chips: bbq Chips ($1.50)
+
+Total Order Price: $8.00

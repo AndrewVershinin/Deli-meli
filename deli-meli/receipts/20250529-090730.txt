@@ -1,0 +1,33 @@
+
+DELI-MELI ORDER SUMMARY
+
+Sandwich 1:
+4" white (Toasted)
+Ingredients:
+ - Ham
+ - Extra Ham (Extra)
+ - Salami
+ - Extra Salami (Extra)
+ - Roast Beef
+ - Extra Roast Beef (Extra)
+ - Chicken
+ - Extra Chicken (Extra)
+ - Bacon
+ - Extra Bacon (Extra)
+ - Cheddar
+ - Extra Cheddar (Extra)
+ - Lettuce
+ - Tomatoes
+ - Onions
+ - Peppers
+ - Pickles
+ - Jalapeños
+ - Cucumbers
+ - Guacamole
+ - Mushrooms
+ - Mayo
+ - Mustard
+Total sandwich price: $8.55
+
+
+Total Order Price: $8.55
