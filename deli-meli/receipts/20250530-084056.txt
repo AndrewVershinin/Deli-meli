@@ -1,0 +1,21 @@
+
+DELI-MELI ORDER SUMMARY
+
+Sandwich 1:
+4" white (Toasted)
+Ingredients:
+ - Chicken
+ - Bacon
+ - American
+ - Extra American (Extra)
+ - Tomatoes
+ - Onions
+ - Mustard
+ - Ketchup
+Total sandwich price: $8.55
+
+Drink: 16oz cola ($2.50)
+
+Total Order Price: $11.05
+Full Order Price: $11.05
+Discounted Price (10% off): $9.95

@@ -1,0 +1,34 @@
+
+DELI-MELI ORDER SUMMARY
+
+Sandwich 1:
+4" rye (Toasted)
+Ingredients:
+ - Steak
+ - Extra Steak (Extra)
+ - Ham
+ - Salami
+ - Roast Beef
+ - Chicken
+ - Bacon
+ - Swiss
+ - Extra Swiss (Extra)
+ - Lettuce
+ - Tomatoes
+ - Onions
+ - Peppers
+ - Pickles
+ - Jalapeños
+ - Cucumbers
+ - Guacamole
+ - Mushrooms
+ - Mayo
+ - Mustard
+ - Ketchup
+ - Vinaigrette
+Total sandwich price: $13.05
+
+
+Total Order Price: $13.05
+Full Order Price: $13.05
+Discounted Price (10% off): $11.75

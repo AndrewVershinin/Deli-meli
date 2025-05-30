@@ -66,7 +66,25 @@ public class UserInterface {
                 case "4":
                     System.out.println("\nFinal Order:");
                     System.out.println(order);
-                    ReceiptService.saveOrderToFile(order);
+                    System.out.print("\nBonus question! Who was the first man in space? ");
+                    String answer = input.nextLine();
+
+                    boolean correct = answer.trim().equalsIgnoreCase("Gagarin");
+
+                    double total = order.calculateTotal();
+                    double discounted = correct ? total * 0.9 : total;
+
+                    System.out.printf("Full Order Price: $%.2f\n", total);
+
+                    if (correct) {
+                        System.out.println("Correct! You get 10% off.");
+                        System.out.printf("Discounted Total: $%.2f\n", discounted);
+                    } else {
+                        System.out.println("Nope! No discount this time.");
+                    }
+
+// Save receipt with full + discounted prices
+                    ReceiptService.saveOrderToFile(order, total, discounted);
                     return;
                 case "0":
                     System.out.println("Order canceled");
